@@ -12,6 +12,7 @@ namespace My.Cool.Website.Tests
         [Test]
         public void Test1()
         {
+            _ = typeof(Program);
             Assert.Pass();
         }
     }
